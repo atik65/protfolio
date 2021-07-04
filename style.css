@@ -150,7 +150,7 @@ font-family: 'Ubuntu', sans-serif; */
   width: 80%;
   border-radius: 50%;
   background-color: transparent;
-  box-shadow: inset -5px -5px 5px #ffffff, inset 3px 3px 5px #00000060;
+  box-shadow: inset -3px -3px 3px #ffffff, inset 3px 3px 5px #00000060;
 }
 .content-left img {
   height: 380px;
@@ -422,4 +422,70 @@ font-family: 'Ubuntu', sans-serif; */
 
 .footer {
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-left {
+    height: 290px;
+    width: 290px;
+  }
+
+  .content-left img {
+    height: 78%;
+    width: 83%;
+  }
+
+  .content-right .buttons button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .resume-details-right {
+    margin-top: 15px;
+  }
+
+  .resume-details-right-inset {
+    margin-top: 50px;
+  }
+
+  .resume-details-right-inset li {
+    margin-left: -20px;
+  }
+
+  .contact-form-right {
+    padding-top: 50px;
+  }
+
+  .contact-form-right input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+  .contact-form-right textarea {
+    width: 95%;
+
+    resize: none;
+  }
+
+  .contact-form-right button {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #eea302;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all 0.3s;
+    box-shadow: -5px -5px 3px #ffffff, 3px 3px 5px #00000070;
+  }
+
+  .footer .fa {
+    font-size: 25px;
+    margin-left: 5px;
+  }
 }
