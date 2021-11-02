@@ -12,10 +12,15 @@ font-family: 'Ubuntu', sans-serif; */
 }
 .header {
   padding-top: 20px;
-  margin-bottom: 80px;
+  padding-bottom: 10px;
+
+  margin-bottom: 70px;
   position: sticky;
   top: 0;
+
   z-index: 5;
+
+  background-color: #f3f3f3;
 }
 
 .header-left {
